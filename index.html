@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First firebase</title>
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     
+</head>
+<body>
+  
+  <nav class="#e91e63 pink">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo center">CRUD OPERATION</a>
+      
+    </div>
+  </nav>
+  <br>
+  <br>
+
+  <div class="mycontainer">  
+<div class="section container light-blue lighten-5">
+
+  
+
+  <div class="row center">
+    <form class="col s12">
+      <div class="row center">
+        <div class="input-field col s12">
+          <input id="roll" type="number" class="validate">
+          <label for="rollno">RollNo</label>
+        </div>
+      </div> 
+      
+      <div class="row center">
+        <div class="input-field col s12">
+          <input id="name" type="text" class="validate">
+          <label for="name">Name</label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="gender" type="text" class="validate">
+          <label for="gender">Gender</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="address" type="text" class="validate">
+          <label for="address">Address</label>
+        </div>
+      </div>
+             
+        
+           
+              <a class="waves-effect waves-light btn" id="insert">Insert</a>
+              <a class="waves-effect waves-light btn" id="update">Update</a>
+              <a class="waves-effect waves-light btn" id="read">Read</a>
+              <a class="waves-effect waves-light btn" id="delete">delete</a>
+            
+    </form>
+  </div>
+</div>
+
+</div>
+
+
+</div>
+
+
+     
+
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+  <script src="./fireConfig.js"></script>
+  <script src="./script.js"></script>
+
+</body>
+</html>
